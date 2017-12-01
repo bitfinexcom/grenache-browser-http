@@ -1,0 +1,37 @@
+{
+  "name": "grenache-browser-http",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Granache Browser HTTP implementation",
+  "author": "prdn <paolo@bitfinex.com> (https://bitfinex.com/)",
+  "keywords": [
+    "grenache",
+    "kademlia",
+    "nodejs",
+    "micro-services"
+  ],
+  "dependencies": {
+    "async": "^2.6.0",
+    "debug": "^3.1.0",
+    "grenache-nodejs-base": "^0.7.0",
+    "grenache-nodejs-link": "^0.7.3",
+    "lodash": "^4.17.4",
+    "request": "^2.83.0",
+    "uuid": "^3.1.0"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "grenache-grape": "git+https://github.com/bitfinexcom/grenache-grape.git",
+    "standard": "^10.0.3"
+  },
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "standard",
+    "lintFix": "standard --fix"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitfinexcom/grenache-browser-http.git"
+  }
+}
