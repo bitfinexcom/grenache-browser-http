@@ -9,18 +9,9 @@
     "nodejs",
     "micro-services"
   ],
-  "dependencies": {
-    "async": "^2.6.0",
-    "bencode": "^1.0.0",
-    "cbq": "0.0.1",
-    "ed25519-supercop": "^1.0.2",
-    "lodash": "^4.17.4",
-    "lru": "^3.1.0",
-    "uuid": "^3.0.1"
-  },
   "main": "index.js",
   "devDependencies": {
-    "grenache-grape": "git+https://github.com/bitfinexcom/grenache-grape.git",
+    "grenache-nodejs-link": "git+https://github.com/bitfinexcom/grenache-nodejs-link.git",
     "mocha": "^4.0.1",
     "standard": "^10.0.2"
   },
