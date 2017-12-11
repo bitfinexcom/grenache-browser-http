@@ -12,12 +12,10 @@
   "main": "index.js",
   "devDependencies": {
     "grenache-nodejs-link": "git+https://github.com/bitfinexcom/grenache-nodejs-link.git",
-    "mocha": "^4.0.1",
     "standard": "^10.0.2"
   },
   "scripts": {
     "test": "npm run lint && npm run unit",
-    "unit": "mocha",
     "lint": "standard"
   },
   "license": "Apache-2.0",
